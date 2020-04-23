@@ -1,2 +1,2 @@
-# DataStructure
-Repository to store POC's on DataStructure algorithms and implementations in JAVA.
+# problem-solving
+Repository of solutions for various interview problems, datastructures.
