@@ -1,4 +1,4 @@
-package in.hp.java;
+package in.hp.java.interviewproblems;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

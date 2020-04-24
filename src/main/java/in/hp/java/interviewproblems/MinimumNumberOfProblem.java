@@ -1,4 +1,4 @@
-package in.hp.java8.exam;
+package in.hp.java.interviewproblems;
 
 import java.util.Arrays;
 import java.util.List;

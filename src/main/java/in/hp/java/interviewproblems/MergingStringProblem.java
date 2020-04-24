@@ -1,4 +1,4 @@
-package in.hp.java;
+package in.hp.java.interviewproblems;
 
 public class MergingStringProblem {
     public static void main(String[] args) {
