@@ -2,7 +2,7 @@ package in.hp.java.interviewproblems;
 
 public class MergingStringProblem {
     public static void main(String[] args) {
-        System.out.println("Merged String :: " + mergeStringsAlternatively("12345688888888888888888888888", "000000000000111111"));
+        System.out.println("Merged String :: " + mergeStringsAlternatively("hari", "prasath "));
     }
 
     static String mergeStringsAlternatively(String a, String b) {
