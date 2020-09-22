@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class SalesmanBookProblem {
     public static void main(String[] args) {
-        System.out.println(findMinNoOfBooks(Arrays.asList(1,1,1,2,2,2,3,4,3), 10));
+        System.out.println(findMinNoOfBooks(Arrays.asList(1, 1, 1, 2, 2, 2, 3, 4, 3), 10));
     }
 
     static List<Integer> findMinNoOfBooks(List<Integer> books, int booksCanBeRemoved) {

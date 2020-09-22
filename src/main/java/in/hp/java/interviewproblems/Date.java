@@ -11,14 +11,13 @@ import java.util.logging.Logger;
  */
 public class Date {
 
+    final Map<Integer, Integer> monthDaysMap = new LinkedHashMap<>();
     private int d;
     private int m;
     private int y;
     private int d1;
     private int m1;
     private int y1;
-
-    final Map<Integer, Integer> monthDaysMap = new LinkedHashMap<>();
 
     public Date() {
         populateMap();
@@ -121,7 +120,7 @@ public class Date {
      * @return
      */
     public boolean isLeapYear(int year) {
-        return  (year % 100 != 0 && year % 4 == 0 || year % 400 == 0);
+        return (year % 100 != 0 && year % 4 == 0 || year % 400 == 0);
     }
 }
 

@@ -6,6 +6,6 @@ package in.hp.java.codewars;
  */
 public class Square {
     public static boolean isSquare(int n) {
-        return n < 0 ? false : Math.sqrt(n) % 1 == 0;
+        return n >= 0 && Math.sqrt(n) % 1 == 0;
     }
 }

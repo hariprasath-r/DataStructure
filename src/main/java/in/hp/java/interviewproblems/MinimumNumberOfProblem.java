@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MinimumNumberOfProblem {
     public static void main(String[] args) {
-        List<Integer> points = Arrays.asList(1,2,3,4,5);
+        List<Integer> points = Arrays.asList(1, 2, 3, 4, 5);
         int threshold = 4;
         System.out.println("Minimum Number of Problems to solve: "
                 + MinimumNumberOfProblem.minNum(threshold, points));

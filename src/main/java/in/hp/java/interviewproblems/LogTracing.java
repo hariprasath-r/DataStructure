@@ -28,7 +28,7 @@ public class LogTracing {
         final String TERMINATED = "terminated";
 
         class Log {
-            String process;
+            final String process;
             String state;
             int time;
 

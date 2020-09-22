@@ -1,6 +1,7 @@
 package in.hp.java.codewars;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Isogram {
     public static boolean isIsogram(String str) {
@@ -10,7 +11,7 @@ public class Isogram {
             set.add(str.charAt(i));
         }
 
-        return str.length() == set.size() ? true : false;
+        return str.length() == set.size();
     }
 
     public static boolean isIsogramBestPractise(String str) {
